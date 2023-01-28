@@ -1,0 +1,8 @@
+> from geopy.geocoders import Nominatim
+> geolocator = Nominatim(user_agent="http")
+> location = geolocator.geocode("Boussinesqweg 1 Delft")
+> print(location.address)
+> print((location.latitude, location.longitude))
+
+1, Boussinesqweg, Technopolis, Ruiven, Delft, Zuid-Holland, Nederland, 2629 HV, Nederland
+(51.9863726, 4.3822529)
